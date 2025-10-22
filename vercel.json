@@ -1,8 +1,6 @@
 {
   "version": 2,
   "crons": [
-    { "path": "/api/cron", "schedule": "5 16 * * *" },
-    { "path": "/api/cron", "schedule": "5 20 * * *" },
-    { "path": "/api/cron", "schedule": "5 1 * * *" }
+    { "path": "/api/cron", "schedule": "*/15 * * * *" }
   ]
 }
